@@ -1,0 +1,1063 @@
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ :root {
+     --first-color: orange;
+     --main-color: #2a007c;
+     --third-color: black;
+ }
+ 
+ header {
+     background-color: white;
+     box-shadow: 0 0 40px rgb(82 85 90 / 10%);
+     padding: 20px;
+     box-shadow: rgb(100 100 111 / 99%) 0px 7px 29px 0px;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ a,
+ li,
+ span,
+ label,
+ button,
+ input,
+ div {
+     font-family: 'Righteous', cursive !important;
+     ;
+ }
+ 
+ .logo {
+     display: inline-block;
+ }
+ 
+ .logo img {
+     height: 100%;
+     width: 133px;
+ }
+ 
+ nav {
+     display: inline-block;
+     float: right;
+ }
+ 
+ nav ul {
+     display: flex;
+     list-style: none;
+     margin-top: 14px;
+ }
+ 
+ nav ul li {
+     margin-right: 31px;
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: black;
+     font-size: 18px;
+     font-family: sans-serif;
+ }
+ 
+ #home {
+     background-image: url(https://nestmatrimony.com/resources/images/Nest_Banner-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 20px;
+     padding-bottom: 23px;
+     overflow: hidden;
+ }
+ 
+ .contant_box {
+     height: 100%;
+     width: 30%;
+     background-color: white;
+     border-radius: 10px;
+     float: right;
+     padding: 14px;
+     padding-top: 50px;
+     box-shadow: rgb(100 100 111 / 99%) 0px 7px 29px 0px;
+ }
+ 
+ .homey::before {}
+ 
+ #home h2 {
+     text-align: center;
+ }
+ 
+ #home h3 {
+     text-align: center;
+     font-size: 30px;
+ }
+ 
+ .input_group label {}
+ 
+ .input_group input,
+ .input_group textarea {
+     float: right;
+     border-radius: 5px;
+     padding: 5px;
+     border: 1px solid #ced4da;
+     outline: navajowhite;
+     width: 50%;
+ }
+ 
+ .input_group select {
+     float: right;
+     border-radius: 5px;
+     padding: 5px;
+     border: 1px solid #ced4da;
+     outline: navajowhite;
+     width: 50%;
+ }
+ 
+ .input_group {
+     margin-bottom: 35px;
+ }
+ 
+ .maps {
+     width: 100%;
+     margin-top: 20px;
+     height: 94%;
+     border-radius: 10px;
+ }
+ 
+ .contant_box button,
+ .contactform button {
+     background: linear-gradient( 45deg, rgb(240, 100, 150), rgb(140, 200, 208));
+     border: navajowhite;
+     border-radius: 5px;
+     padding: 10px;
+     color: black;
+ }
+ 
+ .menubtn {
+     display: none;
+     margin-top: 16px;
+     border: navajowhite;
+     background: transparent;
+ }
+ 
+ .menubtn i {
+     font-size: 25px;
+ }
+ 
+ .offcanvas {
+     width: 85% !important;
+ }
+ 
+ .navlinkm {
+     list-style: none;
+     margin-top: 14px;
+     padding-left: 0;
+ }
+ 
+ .navlinkm li {
+     margin-bottom: 20px;
+ }
+ 
+ .navlinkm li a {
+     text-decoration: none;
+     color: blue;
+     font-size: 18px;
+     font-family: sans-serif;
+ }
+ 
+ .modal-body {
+     padding: 0 !important;
+ }
+ 
+ .login_filed {
+     padding: 20px;
+     padding-right: 30px !important;
+ }
+ 
+ .login_filed h2 span {
+     color: orange;
+ }
+ 
+ .input_group {
+     margin-bottom: 35px;
+ }
+ 
+ .logintop input,
+ .logintop select {
+     border-radius: 5px;
+     padding: 5px;
+     border: 1px solid #ced4da;
+     outline: navajowhite;
+     width: 100%;
+ }
+ 
+ .logintop {
+     margin-top: 20px;
+ }
+ 
+ .login_top button {
+     background: linear-gradient( 45deg, rgb(240, 100, 150), rgb(140, 200, 208));
+     border: navajowhite;
+     border-radius: 5px;
+     padding: 10px;
+     color: black;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .forgetre {
+     border-radius: 5px;
+     width: 100%;
+     background-color: orange;
+     border: none;
+     padding: 10px;
+ }
+ 
+ .forgetre a {
+     padding: 10px;
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .brandnname {
+     color: orange;
+ }
+ 
+ .head_body h2,
+ p {
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .icon_box {
+     background-color: orange;
+     margin: auto;
+     padding: 22px;
+     width: 77px;
+     border-radius: 50%;
+ }
+ 
+ .aboutbox {
+     box-shadow: rgb(60 60 60 / 25%) 0px 7px 29px 0px;
+     border-radius: 10px;
+     padding: 26px;
+     width: 32%;
+     float: left;
+     margin-right: 10px;
+ }
+ 
+ .paymentbox p {
+     text-align: left;
+     display: inline;
+ }
+ 
+ .paymentclass {
+     margin-bottom: 10px;
+ }
+ 
+ .paymentbox span {
+     text-align: right;
+ }
+ 
+ .paymentbox {
+     box-shadow: rgb(60 60 60 / 25%) 0px 7px 29px 0px;
+     border-radius: 10px;
+     padding: 26px;
+     width: 100%;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 20px;
+ }
+ 
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+ }
+ 
+ td,
+ th {
+     border: 1px solid;
+     text-align: left;
+     padding: 8px;
+ }
+ 
+ tbody,
+ td,
+ tfoot,
+ th,
+ thead,
+ tr {
+     border-color: inherit;
+     border-style: solid;
+     border-width: 0;
+     border: 1px solid !important;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #dddddd;
+ }
+ 
+ .aboutbox i {
+     text-align: center;
+     font-size: 32px;
+ }
+ 
+ .about_total {
+     padding: 46px;
+     padding-top: 23px;
+ }
+ 
+ #candidate {
+     margin-top: 30px;
+ }
+ 
+ main {
+     padding: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-color: #f2f2f2;
+ }
+ 
+ .searchbox {
+     width: 100%;
+     padding-bottom: 20px;
+     background-color: white;
+ }
+ 
+ .searchvuttob button {
+     margin-top: 10px;
+     border: navajowhite;
+     padding: 5px;
+     background-color: orange;
+     border-radius: 6px;
+     float: right;
+ }
+ 
+ .faq_element {
+     display: none;
+     padding: 7px;
+     margin-top: 13px;
+     font-size: 15px;
+     font-weight: 100;
+     border-top: 1px solid;
+     border-radius: 5px;
+ }
+ 
+ .faq_box {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     box-shadow: rgb(162 159 138) 0px 6px 11px 0px;
+     border-radius: 5px;
+     padding: 20px;
+     padding-top: 10px;
+     font-size: 18px;
+ }
+ 
+ .faq_head {
+     padding: 7px;
+     padding-bottom: 0px;
+ }
+ 
+ #advancesetting {
+     padding: 50px;
+     padding-top: 0px;
+ }
+ 
+ .explore_tab {
+     width: 100%;
+     background-color: white;
+     border-radius: 5px;
+ }
+ 
+ .advance button {
+     border: none;
+     background: transparent;
+     font-size: 20px;
+ }
+ 
+ .edit_ac textarea {
+     width: 96%;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid;
+     outline: none;
+ }
+ 
+ .edit_ac {
+     padding: 10px;
+ }
+ 
+ .form_group_edit {
+     width: 31%;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 20px;
+ }
+ 
+ .submit_btn {
+     padding: 10px;
+ }
+ 
+ .submit_btn button {
+     border: none;
+     border-radius: 5px;
+     padding: 8px;
+     background-color: var(--first-color);
+ }
+ 
+ .form_group_edit input {
+     width: 100%;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid;
+     outline: none;
+ }
+ 
+ .dashboardcolum2 p {
+     text-align: left;
+ }
+ 
+ .form_group_edit_2 {
+     width: 48%;
+     float: left;
+     margin-right: 10px;
+     margin-bottom: 20px;
+ }
+ 
+ .form_group_edit_2 input {
+     width: 100%;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid;
+     outline: none;
+ }
+ 
+ .form_group_edit_2 select {
+     width: 100%;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid;
+     outline: none;
+     margin-top: 2px;
+ }
+ 
+ .form_group_edit select {
+     width: 100%;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid;
+     outline: none;
+     margin-top: 2px;
+ }
+ 
+ .advance {
+     height: 65px;
+     background-color: orange;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     padding: 10px;
+ }
+ 
+ .faq_element {}
+ /* Hide tabs */
+ 
+ #eg_ {
+     display: none;
+ }
+ 
+ #cp_ {
+     display: none;
+ }
+ 
+ #req_ {
+     display: none;
+ }
+ 
+ #sendq_ {
+     display: none;
+ }
+ 
+ #cr_ {
+     display: none;
+ }
+ 
+ .aboutbox h5 {
+     text-align: center;
+     margin-top: 10px;
+ }
+ /* Slick slider */
+ 
+ page-wrapper {
+     min-height: 100%;
+ }
+ 
+ .page-wrapper a:hover {
+     color: #006669;
+ }
+ /* POST SLIDER */
+ 
+ .post-slider {
+     position: relative;
+ }
+ 
+ .post-slider .slider-title {
+     text-align: center;
+     padding-top: 20px;
+ }
+ 
+ .post-slider .next {
+     position: absolute;
+     top: 50%;
+     right: 30px;
+     font-size: 2em;
+     color: #006669;
+     cursor: pointer;
+ }
+ 
+ .post-slider .prev {
+     position: absolute;
+     top: 50%;
+     left: 30px;
+     font-size: 2em;
+     color: #006669;
+     cursor: pointer;
+ }
+ 
+ .post-slider .post-wrapper {
+     width: 99%;
+     margin: 0px auto;
+     overflow: hidden;
+     padding: 10px 0px 10px 0px;
+ }
+ 
+ .post-slider .post-wrapper .post {
+     width: 300px;
+     margin: 0px 10px;
+     display: inline-block;
+     background: white;
+     border-radius: 5px;
+     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+ }
+ 
+ .post-slider .post-wrapper .post .post-info {
+     height: 130px;
+     padding: 0px 5px;
+ }
+ 
+ .post-slider .post-wrapper .post .slider-image {
+     width: 100%;
+     height: 200px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .content .main-content .post {
+         height: auto;
+     }
+     .content .main-content.single {
+         padding: 10px 20px;
+     }
+     .content .main-content .post .post-image {
+         width: 100%;
+     }
+     .content .main-content .post .post-preview {
+         width: 100%;
+     }
+     .content .main-content .post .read-more {
+         position: static;
+         display: block;
+         width: 100%;
+         text-align: center;
+     }
+     .post-slider .next {
+         right: 10px;
+     }
+     .post-slider .prev {
+         left: 10px;
+     }
+ }
+ 
+ .candidate_profile {}
+ 
+ .candidate_head {
+     height: 100%;
+ }
+ 
+ .candidate_body {
+     background-color: white;
+     box-shadow: 0 3px 5px rgb(16 35 62 / 17%);
+     border-radius: 4px;
+     padding: 10px;
+     padding-bottom: 20px;
+     margin-bottom: 30px;
+ }
+ 
+ .candidate_profile {}
+ 
+ .candidate_profile img {
+     height: 357px;
+     width: 100%;
+     border-top-right-radius: 4px;
+     object-fit: cover;
+     border-top-left-radius: 4px;
+ }
+ 
+ .candidate_body h2 {
+     font-size: 20px;
+     text-transform: capitalize;
+     display: inline-block;
+ }
+ 
+ footer {
+     background-color: var(--first-color);
+     padding: 36px;
+     padding-bottom: 0;
+ }
+ 
+ .contactform {
+     box-shadow: rgb(60 60 60 / 25%) 0px 7px 29px 0px;
+     padding: 19px;
+     margin-top: 18px;
+     border-radius: 10px;
+ }
+ 
+ .food_head {
+     font-size: 20px;
+     text-align: left;
+     color: var(--third-color);
+     text-transform: capitalize;
+ }
+ 
+ footer p {
+     text-align: left;
+     color: var(--main-color);
+ }
+ 
+ .listfoot {
+     list-style: none;
+     padding-left: 0 !important;
+ }
+ 
+ .listfoot li {
+     margin-bottom: 10px;
+ }
+ 
+ .listfoot li a {
+     text-decoration: none;
+     color: var(--main-color);
+ }
+ 
+ .listfoot li i {
+     margin-right: 10px;
+ }
+ 
+ .copyright {
+     background-color: white;
+     text-align: center;
+     padding: 10px;
+ }
+ 
+ .copyright p {
+     display: contents;
+ }
+ 
+ .copyright a {
+     text-decoration: none;
+ }
+ 
+ #b1,
+ #c1 {
+     display: none;
+ }
+ 
+ .form_group_search {
+     width: 31%;
+     float: left;
+     margin-right: 15px;
+     margin-top: 10px;
+ }
+ 
+ .form_group_search select {
+     width: 100%;
+     outline: none;
+     height: 39px;
+     border: 1px solid #e7e8e8;
+ }
+ 
+ .form_group_search_2 {
+     width: 48%;
+     float: left;
+     margin-right: 15px;
+     margin-top: 10px;
+ }
+ 
+ .form_group_search_2 select {
+     width: 100%;
+     outline: none;
+     height: 39px;
+     border: 1px solid #e7e8e8;
+ }
+ 
+ .inactive {
+     display: none;
+ }
+ 
+ .tabbtn {
+     width: 32%;
+     border: navajowhite;
+     margin-top: 10px;
+     padding: 6px;
+     background: var(--first-color);
+     border-radius: 2px;
+ }
+ 
+ .sendre {
+     display: block;
+     width: 100%;
+     border: none;
+     padding: 10px;
+     background-color: orange;
+     border-radius: 5px;
+     text-transform: capitalize;
+     font-weight: 500;
+ }
+ 
+ .age {
+     display: inline-block;
+     float: right;
+     font-size: 20px;
+     font-weight: unset;
+     margin-top: -2px;
+ }
+ 
+ .fillterbox a {
+     color: white;
+     text-decoration: none;
+     text-align: center;
+ }
+ 
+ .daboardcolus {
+     background-color: white;
+     margin: 20px;
+     margin-right: 0;
+ }
+ 
+ .profile_body img {
+     width: 100%;
+     height: 270px;
+     -o-object-fit: cover;
+     object-fit: cover;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+ 
+ .profiledata {
+     column-count: 2;
+     padding-left: 0;
+     list-style: none;
+     margin-bottom: 0;
+ }
+ 
+ .profiledata li p {
+     display: -webkit-inline-box;
+     margin-left: 4px;
+ }
+ 
+ .profiledata li {
+     color: var(--main-color);
+     font-weight: 600;
+ }
+ 
+ .buttonlong {
+     background-color: var(--first-color);
+     padding: 13px;
+     border: none;
+     outline: none;
+     margin-bottom: 20px;
+     width: 100%;
+     color: white;
+ }
+ 
+ .accordion-button:focus {
+     box-shadow: unset !important;
+ }
+ 
+ .accordion-body p {
+     text-align: left;
+ }
+ 
+ .dashboardcolum2 {
+     background-color: white;
+     margin: 20px;
+     padding: 20px;
+     margin-bottom: 0;
+     margin-left: 0;
+     border-radius: 10px;
+ }
+ 
+ .manbtn {
+     width: 48%;
+     float: left;
+     margin: 4px;
+     font-size: 14px !important;
+     margin-bottom: 0px;
+ }
+ 
+ .dashboardcolum22 {
+     background-color: white;
+     margin: 16px;
+     padding: 20px;
+     margin-bottom: 0;
+     margin-left: 0;
+     border-radius: 10px;
+     width: 48%;
+     float: left;
+ }
+ 
+ .faq_head i {
+     float: right;
+     font-size: 24px;
+ }
+ 
+ .fillterbox {
+     height: 50px;
+     width: 16%;
+     background-color: orange;
+     float: left;
+     margin-bottom: 20px;
+     margin-right: 8px;
+     border-radius: 5px;
+     text-align: center;
+     padding-top: 12px;
+ }
+ 
+ .amkunere {
+     padding: 49px;
+     padding-top: 0px;
+ }
+ /* Focus */
+ 
+ .input_group input:focus {
+     border: 1px solid blue;
+ }
+ 
+ @media(max-width:630) {
+     #advancesetting {
+         padding: 29px;
+         padding-top: 0px;
+     }
+ }
+ 
+ @media(max-width:1211px) {
+     .fillterbox {
+         height: 50px;
+         width: 24%;
+         background-color: orange;
+         float: left;
+         margin-bottom: 20px;
+         margin-right: 11px;
+         border-radius: 5px;
+         text-align: center;
+         padding-top: 12px;
+     }
+ }
+ 
+ @media(max-width:1111px) {
+     .fillterbox {
+         height: 50px;
+         width: 30%;
+         background-color: orange;
+         float: left;
+         margin-bottom: 20px;
+         margin-right: 25px;
+         border-radius: 5px;
+         text-align: center;
+         padding-top: 12px;
+     }
+ }
+ /* Responsiv Staring Here */
+ 
+ @media(max-width:1096px) {
+     .contant_box {
+         width: 37%;
+     }
+ }
+ 
+ @media(max-width:711px) {
+     .fillterbox {
+         height: 50px;
+         width: 42%;
+         background-color: orange;
+         float: left;
+         margin-bottom: 20px;
+         margin-right: 35px;
+         border-radius: 5px;
+         text-align: center;
+         padding-top: 12px;
+     }
+     .amkunere {
+         padding: 0;
+         padding-top: 0px;
+         margin-right: 0 !important;
+         margin-left: 0 !important;
+         ;
+     }
+     footer {
+         padding: 14px;
+     }
+     .form_group_search {
+         width: 43%;
+         float: left;
+         margin-right: 31px;
+         margin-top: 10px;
+     }
+ }
+ 
+ @media(max-width:980px) {
+     .contant_box {
+         width: 45%;
+     }
+ }
+ 
+ @media(max-width:1133px) {
+     .dashboardcolum22 {
+         width: 99%;
+     }
+ }
+ 
+ @media(max-width:810px) {
+     .contant_box {
+         width: 55%;
+     }
+ }
+ /* Navbar */
+ 
+ @media(max-width:758px) {
+     nav ul li {
+         display: none;
+     }
+     .menubtn {
+         display: block;
+     }
+     .aboutbox {
+         box-shadow: rgb(60 60 60 / 25%) 0px 7px 29px 0px;
+         border-radius: 10px;
+         padding: 26px;
+         width: 46%;
+         float: left;
+         margin-right: 10px;
+         margin-bottom: 19px;
+     }
+     .form_group_search {
+         width: 100%;
+         float: left;
+         margin-right: 31px;
+         margin-top: 10px;
+     }
+     .form_group_search_2 {
+         width: 100%;
+         float: left;
+         margin-right: 31px;
+         margin-top: 10px;
+     }
+     .daboardcolus {
+         margin: 0;
+     }
+     .profile_body img {
+         height: auto;
+         margin-bottom: 20px;
+     }
+     .dashboardcolum2 {
+         margin-right: 0;
+     }
+ }
+ 
+ @media(max-width:567px) {
+     #advancesetting {
+         padding: 10px;
+         padding-top: 0px;
+     }
+     .contant_box {
+         width: 100%;
+     }
+     .main-container {
+         padding: 10px !important;
+     }
+     .aboutbox {
+         box-shadow: rgb(60 60 60 / 25%) 0px 7px 29px 0px;
+         border-radius: 10px;
+         padding: 26px;
+         width: 100%;
+         float: unset;
+         margin-right: 5px;
+         margin-bottom: 19px;
+     }
+     .about_total {
+         padding: 14px;
+         padding-top: 23px;
+         padding-bottom: 0;
+     }
+     main {
+         padding: 20px;
+     }
+     .tabbtn {
+         width: 100%;
+     }
+     .form_group_edit {
+         width: 45%;
+     }
+     .form_group_edit_2 {
+         width: 98%;
+     }
+ }
+ 
+ @media(max-width:459px) {
+     .fillterbox {
+         height: 50px;
+         width: 100%;
+         background-color: orange;
+         float: unset;
+         margin-bottom: 20px;
+         margin-right: unset;
+         border-radius: 5px;
+         text-align: center;
+         padding-top: 12px;
+     }
+     .form_group_edit {
+         width: 100%;
+     }
+ }
+ 
+ @media(max-width:380px) {
+     .input_group input,
+     select,
+     textarea {
+         float: unset;
+         border-radius: 5px;
+         padding: 5px;
+         border: 1px solid #ced4da;
+         outline: navajowhite;
+         width: 100%;
+     }
+     .profiledata {
+         column-count: 1;
+     }
+     .input_group {
+         margin-bottom: 21px;
+     }
+     .faq_head i {
+         float: unset;
+     }
+ }
